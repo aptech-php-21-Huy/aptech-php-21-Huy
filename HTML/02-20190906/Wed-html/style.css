@@ -1,0 +1,33 @@
+
+    body{background-image: url('hinh_nen2.jpg')}
+    h1,h2{color: gold;text-align: center}            
+    h3{color:white;text-align: left} 
+
+    ol,dl{color:white;text-align:left}  
+
+    table, th, td {
+        color: white;
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+      th, td {
+        text-align: center;  
+        padding: 1px;
+      }
+      img{float:right}
+    
+      a:link, a:visited {
+        background-color:blue;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover, a:active {
+        background-color: lightblue;
+      } 
+     
+
+      
+

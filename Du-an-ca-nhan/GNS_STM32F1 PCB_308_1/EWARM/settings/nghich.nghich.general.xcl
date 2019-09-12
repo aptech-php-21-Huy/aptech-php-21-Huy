@@ -1,0 +1,15 @@
+"G:\New folder (2)\arm\bin\armproc.dll" 
+
+"G:\New folder (2)\arm\bin\armstlink2.dll" 
+
+"C:\Users\Administrator\Desktop\GNS_STM32F1 PCB_102\EWARM\nghich\Exe\nghich.out" 
+
+--plugin "G:\New folder (2)\arm\bin\armbat.dll" 
+
+--device_macro "G:\New folder (2)\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "G:\New folder (2)\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+

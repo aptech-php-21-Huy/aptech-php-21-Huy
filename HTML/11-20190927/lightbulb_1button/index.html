@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lightbulb</title>
+</head>
+
+<body>
+
+    <img id="my_image" src="./img/pic_bulbon.gif" alt="">
+    <button onclick="one_button()">button</button>
+    <script>
+        var status = 1;
+        var light_bulb = {
+            on: 1,
+            off: 0,
+        }
+        function one_button() {
+            //status = document.getElementById('my_image').src;
+            console.log(status);
+            // 
+            if (status == light_bulb.on) {
+                document.getElementById('my_image').src = "./img/pic_bulboff.gif";
+                status = light_bulb.off;
+                console.log('true');
+            }
+            else {
+                document.getElementById('my_image').src = "./img/pic_bulbon.gif";
+                status = light_bulb.on;
+                console.log('false');
+            }
+        }
+        // var status;
+        // var light_bulb = {
+        //     on: "./img/pic_bulbon.gif",
+        //     off: "./img/pic_bulboff.gif",
+        // }
+        // function one_button() {
+        //     status = document.getElementById('my_image').src;
+        //     console.log(status);
+        //     // 
+        //     if (status == light_bulb.on) {
+        //         document.getElementById('my_image').src = "./img/pic_bulboff.gif";
+        //         console.log('true');
+        //     }
+        //     else {
+        //         document.getElementById('my_image').src = "./img/pic_bulbon.gif";
+        //         console.log('false');
+        //     }
+        // }
+    </script>
+</body>
+
+</html>
